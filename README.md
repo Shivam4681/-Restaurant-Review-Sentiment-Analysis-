@@ -1,6 +1,6 @@
 <h1 align="center">Restaurant Review Sentiment analysis with Keras ANN Using Deep Learning</h1>
 <p align="center">
-<img src="images.png">
+<img src="images.jpeg">
 
 
 ## Project Overview
