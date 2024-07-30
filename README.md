@@ -23,10 +23,3 @@ This project aims to perform sentiment analysis on restaurant reviews using a de
    • Training: Trained the ANN model on the training data, adjusting the weights and biases through multiple epochs to minimize the loss and improve accuracy.<br>
    • Evaluation: Evaluated the model on the testing set, measuring accuracy, precision, recall, and F1-score to ensure reliable performance.<br>
 
-
-
-#### Repository Contents<br>
-• notebooks: Google Colab notebooks with detailed steps for data preprocessing, deep learning model development, training, and evaluation.<br>
-• models: Saved model files for reuse and inference.<br>
-• reports: Performance metrics and evaluation reports.<br>
-
