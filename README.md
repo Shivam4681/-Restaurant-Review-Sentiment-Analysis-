@@ -1,23 +1,21 @@
 <h1 align="center">Restaurant Review Sentiment analysis with Keras ANN Using Deep Learning</h1>
 <p align="center">
-<img src="images.jpeg">
+<img src="Restaurant.jpeg">
 
 
-## Project Overview
-This project implements handwritten digit image classification using deep learning with Keras and the MNIST dataset, a standard benchmark for image classification tasks.The coding for this project was done using Google Colab.
+## Overview
+This project aims to perform sentiment analysis on restaurant reviews using a deep learning approach with Keras. The objective is to classify the sentiment polarity (positive or negative) expressed in the reviews accurately.
 <br>
 
-• Dataset: MNIST dataset containing grayscale images of handwritten digits (0-9).<br>
-• Objective: Accurately classify handwritten digit images using a deep learning approach with Convolutional Neural Networks (CNN).<br>
 
-#### Key Features:<br>
-1) Data Preprocessing:<br>
-   • Loaded and preprocessed the MNIST dataset.<br>
-   • Normalized grayscale images to enhance model performance.<br>
+#### Project Description:<br>
+1) Textual Data Processing Data Collection:<br>
+   • Cleaned the text data by removing punctuation, converting text to lowercase, and removing stop words.<br>
+
    
-2) Deep Learning Model Development:<br>
-   • Built a deep learning model using Convolutional Neural Networks (CNN) in Keras.<br>
-   • Designed the CNN architecture with multiple convolutional and pooling layers to capture intricate patterns in handwritten digits.<br>
+2) TFIDF Vectorization:<br>
+   • Used the TFIDF Vectorizer to transform the textual data into numerical features.<br>
+   • This step converts the text data into a format suitable for machine learning algorithms.<br>
    • Applied dropout and batch normalization to prevent overfitting and improve generalization.<br>
 
 3) Model Training and Evaluation:<br>
